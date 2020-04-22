@@ -1,3 +1,5 @@
+Duplicate of https://github.com/DaveGamble/cJSON
+
 # cJSON
 
 Ultralightweight JSON parser in ANSI C.
