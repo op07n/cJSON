@@ -31,5 +31,5 @@ jobs:
             call "%programfiles(x86)%\Microsoft Visual Studio\2019\Enterprise\VC\Auxiliary\Build\vcvars32.bat"
             mkdir build
             cd build
-            cmake .. -G"Visual Studio 16 2017 Win32"  "-A Win32 -DBUILD_SHARED_LIBS=Off -DENABLE_TARGET_EXPORT=Off"
+            cmake .. -G"Visual Studio 16 2019 Win32"  "-A Win32 -DBUILD_SHARED_LIBS=Off -DENABLE_TARGET_EXPORT=Off"
         shell: cmd
