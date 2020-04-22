@@ -33,3 +33,10 @@ jobs:
             cd build
             cmake -G "Visual Studio 16 2019" -A Win32 -DCMAKE_BUILD_TYPE=Release ../"
         shell: cmd
+
+      - name: Upload artifact (Windows)
+        if: startsWith(matrix.os, 'windows')
+        uses: actions/upload-artifact@v1
+        with:
+          name: cJSON
+          path: .
